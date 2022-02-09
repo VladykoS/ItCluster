@@ -1,0 +1,22 @@
+table {
+   border-collapse: collapse;
+   margin-top: 100px;
+   margin-left: auto;
+   margin-right: auto;
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 15px;
+}
+
+table td {
+   border: 2px solid black;
+   width: 120px;
+}
+
+tr {
+   height: 40px;
+}
+
+th {
+   border: 2px solid black;
+}
+
