@@ -1,0 +1,290 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+
+
+body {
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   font-size: 20px;
+   background: rgb(255, 245, 245);
+}
+
+.content {
+   padding-top: 170px;
+   padding-bottom: 130px;
+   margin: 0 auto;
+   max-width: 850px;
+}
+
+/* .content-info {} */
+
+/* блок топ */
+.content-top-info {
+   margin-bottom: 50px;
+
+}
+
+/* .content-top-list {} */
+
+.content-top-list li {
+   padding-left: 35px;
+   font-size: 24px;
+   background: url("../homework_hover/img/check.png") left no-repeat;
+}
+
+.content-top-list li:nth-child(1) {
+   text-decoration: line-through;
+}
+
+.content-top-list li:nth-child(2) {
+   font-weight: 700;
+}
+
+.content-top-list li:nth-child(3) {
+   font-style: italic;
+}
+
+.content-top-list li:nth-child(4) {
+   text-transform: uppercase;
+}
+
+/* блок нижній */
+/* .content-bottom-info {}
+
+.content-bottom-list {} */
+
+.content-bottom-list li {
+   padding-left: 35px;
+   font-size: 24px;
+   background: url("../homework_hover/img/check.png")left no-repeat;
+}
+
+/* .content-bottom-list li:nth-child(1) {} */
+
+.content-bottom-list li:nth-child(2):hover {
+   color: red;
+}
+
+/* .content-bottom-list li:nth-child(3) {}
+
+.content-bottom-list li:nth-child(4) {} */
+
+/* кнопки */
+.content button {
+   display: inline-block;
+   padding: 20px;
+   margin-right: 30px;
+}
+
+.button-left {
+   height: 44px;
+   display: inline-block;
+   line-height: 44px;
+   padding: 0px 30px;
+   border-radius: 24px;
+   background: #8880b7;
+   box-shadow: 0 6px 40px 15px #bdf7bd;
+   -webkit-box-shadow: 0px 5px 1px rgb(0, 0, 0, 0.5);
+   box-shadow: 0px 5px 1px rgb(0, 0, 0, 0.5);
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   color: #fff;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 2.8px;
+   margin-right: 50px;
+}
+
+.button-left:hover {
+   background-color: salmon;
+   color: #888;
+
+}
+
+.button-left span {
+   background: url("../homework_hover/img/check.png")right no-repeat;
+   padding-right: 30px;
+
+}
+
+/* .button-left__click {} */
+
+.button-center {
+   height: 44px;
+   display: inline-block;
+   line-height: 44px;
+   padding: 0px 30px;
+   border-radius: 24px;
+   background: #8880b7;
+   box-shadow: 0 6px 40px 15px #bdf7bd;
+   -webkit-box-shadow: 0px 5px 1px rgb(0, 0, 0, 0.5);
+   box-shadow: 0px 5px 1px rgb(0, 0, 0, 0.5);
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   color: #fff;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 2.8px;
+   margin-right: 50px;
+}
+
+.button-center:focus {
+   background-color: seagreen;
+   color: rgb(39, 197, 245);
+}
+
+.button-center span {
+   background: url("../homework_hover/img/check.png")right no-repeat;
+   padding-right: 30px;
+}
+
+/* .button-center__click {} */
+
+.button-right {
+   height: 44px;
+   display: inline-block;
+   line-height: 44px;
+   padding: 0px 30px;
+   border-radius: 24px;
+   background: #8880b7;
+   box-shadow: 0 6px 40px 15px #bdf7bd;
+   -webkit-box-shadow: 0px 5px 1px rgb(0, 0, 0, 0.5);
+   box-shadow: 0px 5px 1px rgb(0, 0, 0, 0.5);
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   color: #fff;
+   font-size: 14px;
+   text-transform: uppercase;
+   letter-spacing: 2.8px;
+   margin-right: 50px;
+}
+
+.button-right:active {
+   background-color: skyblue;
+   color: #fc1f44;
+}
+
+.button-right span {
+   background: url("../homework_hover/img/check.png")right no-repeat;
+   padding-right: 30px;
+}
+
+
+/* .button-right__click {} */
+
+/* textarea */
+/* .input-info {} */
+
+.textinput {
+   border: 1px solid #666;
+   height: 50px;
+   padding: 0 15px;
+   font-size: 18px;
+   width: 300px;
+   margin-bottom: 10px;
+}
+
+.textinput:focus {
+   font-weight: 700;
+   box-shadow: slateblue 0 0 20px;
+}
+
+.texthover {
+   border: 1px solid #666;
+   height: 50px;
+   padding: 0 15px;
+   font-size: 18px;
+   width: 300px;
+   margin-bottom: 10px;
+}
+
+.texthover:hover {
+   font-weight: 700;
+   box-shadow: rgb(54, 243, 7) 0 0 20px;
+}
+
+.text-footer {
+   margin-bottom: 30px;
+   padding-top: 30px;
+}
+
+.text-footer::first-line {
+   color: red;
+}
+
+.first-letter::first-letter {
+   color: red;
+   font-size: 50px;
+}
